@@ -1,0 +1,144 @@
+/* All Common Css Start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ol ul{
+    list-style-type: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* All Common Css End*/
+
+ /* Header Part Start */
+ body {
+    font-family: "Albert Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-weight: 700;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #333;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+.nav-item a:hover {
+    background-color: #3bab19;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+  /* Header Part End */
+
+  /* Banner Part Start */
+  .bannerpart{
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .overly{
+    padding: 250px 0;
+    background: rgba(24, 24, 24, 0.389);
+
+  }
+.bannertext{
+    text-align: center;
+    color: white;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 800;
+}
+.bannertext h1{
+    display: inline-block;
+    position: relative;
+}
+.bannertext h1::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #3bab19;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.4s;
+}
+.bannertext h1::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #3bab19;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s;
+}
+.bannertext h1:hover::before{
+    width: 50%;
+}
+.bannertext h1:hover::after{
+    width: 50%;
+} 
+  /* Banner Part End */
+
+  /* Z Part Start */
+.zpart{
+    padding: 250px 0;
+    background: #e31414;
+}
+.parents{
+    position: relative;
+}
+.one{
+    width: 150px;
+    height:150px;
+    background: #3bab19;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.two{
+    width: 150px;
+    height:150px;
+    background: #f0f9e6;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.three{
+    width: 150px;
+    height:150px;
+    background: #0dd481;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+  /* Z Part End */
+  
